@@ -37,7 +37,8 @@ public class Test1Application {
 		 * List<Customer> city = u.findByCity("Bangalore"); city.forEach(j->{
 		 * System.out.println(j); });
 		 */
-		  List<Customer> name = u.findByName("Surya"); name.forEach(j->{
+		  List<Customer> name = u.findByName("Surya"); 
+		  name.forEach(j->{
 		  System.out.println(j); });
 		 
 		 
